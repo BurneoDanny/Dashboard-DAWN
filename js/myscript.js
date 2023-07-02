@@ -217,17 +217,4 @@ let loadInocar = () => {
   loadInocar();
 })();
 
-// (async () => {
-//     try {
-//         let URL = fetch("https://api.open-meteo.com/v1/forecast?latitude=-2.20&longitude=-79.89&hourly=temperature_2m&daily=uv_index_max&timezone=America%2FChicago");
-//         var response = await fetch(URL);
-//         if (response.ok) {
-//           var responseText = await response.text();
-//           //funcion
-//         } else {
-//           throw new Error(response.statusText);
-//         }
-//     } catch (err) {
-//       console.log("Error al realizar la petición AJAX: " + err.message);
-//     }
-//   })();
+
